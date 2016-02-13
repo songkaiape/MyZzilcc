@@ -5,4 +5,5 @@ My Valentine's Day gift to the sweetheart.
 2. [http://netcan.github.io/MyZzilcc](http://netcan.github.io/MyZzilcc)
 
 ## TODO
-1. 页面增加搜索栏，方便做浏览器首页。(Page add the search bar, for setting browser home page.)
+1. ~~页面增加搜索栏，方便做浏览器首页。(Page add the search bar, for setting browser home page.)~~
+2. 增加名言警句(add quotes)
