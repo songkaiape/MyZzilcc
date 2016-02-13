@@ -1,6 +1,8 @@
 function clock() {
 	var clk = new Date();
-	$('#clock').text(clk.getHours().toString()+ ':' + clk.getMinutes().toString());
+	var h = clk.getHours();
+	var m = clk.getMinutes();
+	$('#clock').text((h<10?'0'+h:h) + ':' + (m<10?'0'+m:m));
 }
 function greetings() {
 	var clk = new Date();
@@ -16,5 +18,5 @@ function greetings() {
 	}
 }
 
-setInterval(clock, 200);
-setInterval(greetings, 200);
+setInterval(clock, 800);
+setInterval(greetings, 800);

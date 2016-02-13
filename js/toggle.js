@@ -1,10 +1,10 @@
 // 初始化
-if(typeof Cookies.get('type') === "undefined") {
+if(typeof Cookies.get('type') === "undefined")
 	Cookies.set('type', 'love', {expires: 365, path: '/'});
-}
-if(typeof Cookies.get('search_engine') === "undefined") {
+if(typeof Cookies.get('search_engine') === "undefined")
 	Cookies.set('search_engine', 'baidu', {expires: 365, path: '/'});
-}
+if($(window).width() < $(window).height()) // 竖屏
+	$('#sakura').hide(0);
 
 // 显示按钮文字
 switch(Cookies.get('type')) {
