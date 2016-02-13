@@ -72,3 +72,13 @@ $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[p
   $(".quote").append(a[0].content + "<p>— " + a[0].title + "</p>")
 });
 
+// 搜索框默认文字
+$('.search').val('I am here waiting for you...');
+$('.search').focus(function() {
+	$('.search').val('');
+});
+
+$('.search').blur(function() {
+	if($('.search').val() == '') $('.search').val('I am here waiting for you...');
+});
+
